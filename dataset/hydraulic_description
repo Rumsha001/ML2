@@ -1,0 +1,45 @@
+Condition monitoring of hydraulic systems
+=========================================
+
+Abtract: The data set addresses the condition assessment of a hydraulic test rig based on multi sensor data. Four fault types are superimposed with several severity grades impeding selective quantification.
+
+Source:
+Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbrücken
+Contact: t.schneider@zema.de, s.klein@zema.de, m.bastuck@lmt.uni-saarland.de, info@lmt.uni-saarland.de
+
+Data Type: Multivariate, Time-Series
+Task: Classification, Regression
+Attribute Type: Categorical, Real
+Area: CS/Engineering
+Format Type: Matrix
+Does your data set contain missing values? No
+
+Number of Instances: 2205
+
+The target condition values are cycle-wise annotated in ‘hydraulic.csv‘ (tab-delimited). The columns are
+
+1: Cooler condition / %:
+	3: close to total failure
+	20: reduced effifiency
+	100: full efficiency
+
+2: Valve condition / %:
+	100: optimal switching behavior
+	90: small lag
+	80: severe lag
+	73: close to total failure
+
+3: Internal pump leakage:
+	0: no leakage
+	1: weak leakage
+	2: severe leakage
+
+4: Hydraulic accumulator / bar:
+	130: optimal pressure
+	115: slightly reduced pressure
+	100: severely reduced pressure
+	90: close to total failure
+
+5: stable flag:
+	0: conditions were stable
+	1: static conditions might not have been reached yet

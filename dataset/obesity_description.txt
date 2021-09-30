@@ -1,0 +1,16 @@
+@attribute Gender {Female,Male}
+@attribute Age numeric
+@attribute Height numeric
+@attribute Weight numeric
+@attribute family_history_with_overweight {yes,no}
+@attribute FAVC {yes,no}- Consumption of calorie-rich food on a frequent basis
+@attribute FCVC numeric- Usage of vegetables
+@attribute NCP numeric - Number of meals
+@attribute CAEC {no,Sometimes,Frequently,Always} -Consumption of meals @attribute SMOKE {yes,no}
+@attribute CH2O numeric - Consumption of water daily 
+@attribute SCC {yes,no} - Calorie's consumption monitoring
+@attribute FAF numeric - Physical activity  frequency
+@attribute TUE numeric - Time using technology devices. 
+@attribute CALC {no,Sometimes,Frequently,Always} - Consumption of alcohol
+@attribute Transport_mode {Automobile,Motorbike,Bike,Public_Transportation,Walking} - Transportation used.
+@attribute Observation{Insufficient_Weight,Normal_Weight,Overweight_Level_I,Overweight_Level_II,Obesity_Type_I,Obesity_Type_II,Obesity_Type_III}

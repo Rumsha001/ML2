@@ -1,0 +1,17 @@
+@attribute Gender {Female,Male}
+@attribute Age numeric
+@attribute Height numeric
+@attribute Weight numeric
+@attribute family_history_with_overweight {yes,no} 
+@attribute FC-HighCalorie {yes,no}- Consumption of calorie-rich food on a frequent basis
+@attribute FC-Vegetables numeric- Usage of vegetables
+@attribute N_Meals numeric- Number of meals
+@attribute SMOKE {yes,no}
+@attribute Water_Qty numeric- Consumption of water daily 
+@attribute Calorie_Calc {yes,no}- Calorie's consumption
+monitoring 
+@attribute Physical Activity numeric- Physical activity frequency
+@attribute Gadgets_Usage numeric- Time using technology devices.
+@attribute C_Alcohol {no,yes}- Consumption of alcohol  
+@attribute Transport_mode {Personal,Walking}- Transportation used.
+@attribute Obese{Insufficient_Weight,Normal_Weight,Overweight_Level_I,Overweight_Level_II,Obesity_Type_I,Obesity_Type_II,Obesity_Type_III}
